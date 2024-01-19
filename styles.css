@@ -47,22 +47,15 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem 1rem 3rem 1rem;
- /* add padding to the bottom */
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
+
 aside img {
     width: 500px;
     height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    margin-bottom: 1rem;
 }
 
 footer {
