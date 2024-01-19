@@ -2,10 +2,16 @@ main {
     max-width: 840px;
 }
 
+header {
+    background-color: steelblue;
+    padding: 10px;
+    display: block;
+}
+
 nav a {
     background-color: steelblue;
     padding: 10px;
-    display: inline block;
+    display: block;
 }
 
 h1 {
