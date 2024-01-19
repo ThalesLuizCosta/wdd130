@@ -58,6 +58,7 @@ aside {
 }
 
 aside img {
+    object-fit: fill;
     width: 200px;
     height: auto;
 }
