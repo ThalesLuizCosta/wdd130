@@ -11,7 +11,7 @@ body header {
 nav a {
     color: white;
     padding: 10px;
-    display: block;
+    display: inline;
 }
 
 h1 {
