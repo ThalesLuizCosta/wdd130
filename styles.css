@@ -11,7 +11,12 @@ body header {
 nav a {
     color: white;
     padding: 10px;
-    display: inline;
+    display: inline-block; /* changed from inline to inline-block */
+    text-decoration: none; /* added to remove underline from links */
+}
+
+nav a:hover {
+    text-decoration: underline; /* added to underline links on hover */
 }
 
 h1 {
