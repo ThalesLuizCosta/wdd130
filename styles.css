@@ -3,7 +3,7 @@ main {
 }
 
 nav a {
-    color: steelblue;
+    background-color: steelblue;
     padding: 10px;
     display: inline block;
 }
