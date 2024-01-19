@@ -57,7 +57,7 @@ aside {
 }
 
 aside img {
-    width: 500px;
+    max-width: 100%;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
