@@ -1,77 +1,60 @@
-/* Variables */
-:root {
-    --color-primary: steelblue;
-    --color-secondary: #333;
-    --color-background: #eee;
-    --color-border: rgba(0, 0, 0, 0.2);
-    --color-shadow: gray;
-    --spacing-small: 1rem;
-    --spacing-medium: 2rem;
-    --spacing-large: 3rem;
-    --spacing-xlarge: 4rem;
-    --border-width: 1px;
-  }
-  
-  /* Layout */
-  main {
+main {
     max-width: 840px;
-    margin: 0 auto;
-  }
-  
-  header {
-    background-color: var(--color-primary);
-    padding: var(--spacing-small);
+}
+
+body header {
+    background-color: steelblue;
+    padding: 10px;
     display: block;
-  }
-  
-  nav a {
-    color: var(--color-primary);
-    padding: var(--spacing-small);
+}
+
+nav a {
+    color: steelblue;
+    padding: 10px;
     display: block;
-  }
-  
-  footer {
-    margin-top: var(--spacing-large);
-    border-top: var(--border-width) solid #000;
-    text-align: center;
-  }
-  
-  aside {
-    width: 20rem;
-    margin: var(--spacing-medium);
-    border: var(--border-width) solid var(--color-border);
-    padding: var(--spacing-small);
-    background-color: var(--color-background);
-    color: var(--color-secondary);
-    text-align: center;
-  }
-  
-  aside img {
-    width: 200px;
-    height: auto;
-  }
-  
-  /* Typography */
-  h1 {
-    color: var(--color-primary);
-    font-size: 2rem;
+}
+
+h1 {
+    color: steelblue;
+    font-size: 24px;
     font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  p {
-    color: var(--color-secondary);
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0;
-  }
-  
-  img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main img {
     width: 150px;
     height: auto;
-    border: var(--border-width) solid var(--color-primary);
-    padding: 0.2rem;
-    box-shadow: 0 0 var(--spacing-large) var(--color-shadow);
-  }
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
