@@ -56,10 +56,7 @@ aside {
 
 .custom image {
     width: 627px;
-    height: 1034px;
-    border: 1px;
-    padding: 4px;
-    box-shadow: 0 0 60px gray;
+    height: auto;
 }
 
 footer {
