@@ -24,7 +24,7 @@ h1 {
 }
 
 main {
-    max-width: 840px;
+    max-width: 1200px;
 }
 
 main img {
@@ -44,7 +44,7 @@ p {
 }
 
 aside {
-    width: 20em;
+    width: 40.6em;
     margin: 1em;
     container: flex;
     border: 1px solid rgba(0, 0, 0, 0.2);
