@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 body header {
     background-color: steelblue;
     padding: 10px;
@@ -7,7 +18,7 @@ body header {
 nav a {
     color: white;
     padding: 10px;
-    display: inline-block; /* changed from inline to inline-block */
+    display: block; /* changed from inline to block */
     text-decoration: none; /* added to remove underline from links */
 }
 
@@ -24,7 +35,7 @@ h1 {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 640px;
 }
 
 main img {
@@ -33,18 +44,16 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
-    color: black;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0;
+    margin: 1rem;
 }
 
 aside {
-    width: 40.6em;
+    width: 41.1em;
     margin: 1em;
     container: flex;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -52,11 +61,19 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 627px;
     height: auto;
+    float: right;
+}
+
+aside h2 {
+    position: absolute;
+    top: 100px;
+    left: 300px;
 }
 
 footer {
@@ -64,3 +81,16 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
+}
+/* 24 January 2023 - here I change somethings */
