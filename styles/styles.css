@@ -18,7 +18,7 @@ body header {
 nav a {
     color: white;
     padding: 10px;
-    display: block; /* changed from inline to block */
+    display: inline; /* changed from inline to block */
     text-decoration: none; /* added to remove underline from links */
 }
 
@@ -32,6 +32,7 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 main {
@@ -55,12 +56,12 @@ p {
 aside {
     width: 41.1em;
     margin: 1em;
-    container: flex;
+    container: auto;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: justify;
     position: relative;
 }
 
