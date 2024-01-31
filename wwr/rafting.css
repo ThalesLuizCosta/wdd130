@@ -130,11 +130,10 @@ article img {
 
 .hero-content h1 {
     background: rgba(0, 0, 0, 0.7); 
-    padding: 10px; 
-    margin: 0; 
+    padding: 20px;
+    margin: 0;
     color: #fff;
     text-align: center;
-    display: flex;
 }
 
 .hero-content article {
