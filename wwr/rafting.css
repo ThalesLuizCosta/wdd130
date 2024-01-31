@@ -134,7 +134,7 @@ article img {
     margin: 0; 
     color: #fff;
     text-align: center;
-    width: 97,8%;
+    display: flex;
 }
 
 .hero-content article {
