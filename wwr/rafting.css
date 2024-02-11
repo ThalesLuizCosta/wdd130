@@ -268,7 +268,7 @@ button:hover {
 }
 
 iframe {
-    height: 750px; /* Iframe height */
+    height: 500px; /* Iframe height */
     width: 750px; /* Iframe width */
     justify-content: center;
 }
