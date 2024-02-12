@@ -193,10 +193,8 @@ footer p {
 }
 
 .form-items {
-    .form-item {
-        display: grid;
-        align-items: flex-start;
-    }
+    display: grid;
+    align-items: flex-start;
 }
 
 legend {
@@ -228,7 +226,7 @@ fieldset  {
 }
 
 form {
-    width: 800px;
+    width: 850px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -238,12 +236,27 @@ form {
 }
 
 .rafting h1, h2 {
-    font-family: var(--heading-font);
-    text-align: left;
+    font-family: var(--paragraph-font);
+    text-align: center;
+    color: navy;
 }
 
-.title form legend {
-    align-content: center;
+.image-placeholder-1 {
+	width: 167px;
+	height: 107px;
+	background: #E6E6E6;
+}
+
+.image-placeholder-2 {
+	width: 183px;
+	height: 127px;
+	background: #E6E6E6;
+}
+
+.pics div img {
+    display: block;
+    margin: 0 auto;
+    align-content:last baseline;
 }
 
 button {
@@ -261,8 +274,8 @@ button:hover {
 }
 
 iframe {
-    height: 500px; /* Iframe height */
+    height: 450px; /* Iframe height */
     width: 750px; /* Iframe width */
-    justify-content: center;
+    justify-content: space-around;
 }
 /* changed February 4th */
