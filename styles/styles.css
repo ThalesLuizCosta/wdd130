@@ -1,40 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dosis&display=swap');
+
+:root {
+    --primary-color : #2F9EFF;
+    --secondary-color : #887D6E;
+    --accent1-color : #fff;
+    --accent2-color : #000;
+    --heading-font : 'Archivo Black',serif;
+    --paragraph-font : Dosis,serif;
+    --nav-background-color : #fff;
+    --nav-link-color : #064e8d;
+    --nav-hover-link-color : #fff;
+    --nav-hover-background-color : rgb(6, 78, 141, 0.8);
+}
+
 * {
     margin : 0;
     padding : 0;
     box-sizing : border-box;
 }
 
-body {
-    font-size : 16px;
-    font-family : Roboto, Arial, sans-serif;
+header {
+    padding : 20px;
+    background-color : #fff;
+    margin : 1rem auto;
+    display : flex;
+    grid-template-columns : 120px 1fr 2fr;
+    align-items : center;
+    max-width : 1000px;
 }
 
-body header {
-    background-color : steelblue;
-    padding : 10px;
-    display : block;
+header img {
+    width : 100px;
+    height : auto;
+    float : left;
+}
+
+header nav {
+    color: #154f5e;
+    padding: 0%;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navigation {
+    justify-content: center;
+}
+
+body {
+    font-size : 16px;
+    font-family: var(--paragraph-font);
 }
 
 nav {
-    background-color : steelblue;
-    padding : 1rem;
+    font-size : 1.2rem;
     display : flex;
-    justify-content : space-evenly;
-    align-items : center;
 }
 
 nav a {
     display : flex;
-    padding : 0.5rem;
     text-decoration : none;
-    font-size : 1.2rem;
-    font-weight : 700;
-    color : #fff;
+    padding : 1rem;
 }
 
-nav a:hover {
-    text-decoration : underline;
-    }
+nav a:link, nav a:visited {
+    color : var(--primary-color);
+}
+
 h1 {
     color : steelblue;
     font-size : 24px;
@@ -86,12 +119,6 @@ aside h2 {
     left : 125px;
 }
 
-footer {
-    margin-top : 15px;
-    border-top : 1px solid #000;
-    text-align : center;
-}
-
 .box {
     margin : 1rem;
     border : rgb(0, 0, 0, 0.1) solid 1px;
@@ -104,7 +131,7 @@ footer {
     padding-left : 2rem;
 }
 
-header, .grid, footer {
+header, .grid {
     max-width : 840px;
     margin : 0 auto;
 }
@@ -127,4 +154,37 @@ aside {
     grid-row : 1 / 2;
 }
 
-/* changed February 3rd */
+footer {
+    text-align : center;
+    padding : 10px;
+    background-color : #929eb7;
+    bottom : 0;
+    width : 100%;
+    height : 10%;
+    display : grid;
+}
+
+footer {
+    text-align : center;
+    padding : 10px;
+    background-color : #929eb7;
+    bottom : 0;
+    width : 100%;
+    height : 7%;
+    display : flex;
+    align-items : center;
+}
+
+footer img {
+    width : 50px;
+    height : auto;
+    margin-left : 10px;
+}
+
+footer p {
+    margin : 0;
+    flex-grow : 1;
+    text-align : center;
+}
+
+/* changed February 17th */

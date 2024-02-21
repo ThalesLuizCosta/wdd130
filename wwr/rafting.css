@@ -12,6 +12,17 @@
     --nav-hover-link-color : #fff;
     --nav-hover-background-color : rgb(6, 78, 141, 0.8);
 }
+  
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
 
 .hero img {
     display : block;
@@ -163,34 +174,12 @@ h2 {
     margin-bottom : 10px;
 }
 
+
 section img {
     max-width : 100%;
     margin : 0 10px 10px;
 }
 
-footer {
-    text-align : center;
-    padding : 10px;
-    background-color : #929eb7;
-    position : fixed;
-    bottom : 0;
-    width : 100%;
-    height : 11%;
-    display : flex;
-    align-items : center;
-}
-
-footer img {
-    width : 50px;
-    height : auto;
-    margin-left : 10px;
-}
-
-footer p {
-    margin : 0;
-    flex-grow : 1;
-    text-align : center;
-}
 
 .form-items {
     display: grid;
@@ -274,8 +263,33 @@ button:hover {
 }
 
 iframe {
-    height: 450px; /* Iframe height */
-    width: 750px; /* Iframe width */
+    height: 450px;
+    width: 750px;
     justify-content: space-around;
 }
-/* changed February 4th */
+
+footer {
+    text-align : center;
+    padding : 10px;
+    background-color : #929eb7;
+    position : fixed;
+    bottom : 0;
+    width : 100%;
+    height : 7%;
+    display : flex;
+    align-items : center;
+}
+
+footer img {
+    width : 50px;
+    height : auto;
+    margin-left : 10px;
+}
+
+footer p {
+    margin : 0;
+    flex-grow : 1;
+    text-align : center;
+}
+
+/* changed February 17th */
