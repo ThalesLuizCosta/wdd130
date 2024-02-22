@@ -144,6 +144,10 @@ article img {
     margin : 0 auto;
 }
 
+.home h1 {
+    font-size : 3em;
+}
+
 .hero-content article {
     background-color : rgb(0, 0, 0, 0.7);
     padding : 20px;
